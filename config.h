@@ -4,18 +4,10 @@
 static const char *user  = "kesav";
 static const char *group = "kesav";
 
-// colors/theme/gruvbox {{{
-
-static const char col_background[] = "#282828";
-static const char col_color1[] = "#cc241d";
-static const char col_color6[] = "#689d6a";
-
-// }}}
-
 static const char *colorname[NUMCOLS] = {
-	[INIT]   = col_background, // after initialization
-	[INPUT]  = col_color6,     // during input
-	[FAILED] = col_color1,     // wrong password
+	[INIT]   = "#1d2021", // after initialization
+	[INPUT]  = "#282828",     // during input
+	[FAILED] = "#9d0006",     // wrong password
 };
 
 /* treat a cleared input like a wrong password (color) */
