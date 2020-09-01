@@ -6,8 +6,8 @@ static const char *group = "kesav";
 
 static const char *colorname[NUMCOLS] = {
 	[INIT]   = "#1d2021", // after initialization
-	[INPUT]  = "#282828",     // during input
-	[FAILED] = "#9d0006",     // wrong password
+	[INPUT]  = "#282828", // during input
+	[FAILED] = "#9d0006", // wrong password
 };
 
 /* treat a cleared input like a wrong password (color) */
